@@ -124,7 +124,7 @@
         if (win == 5 || loss == 5) {
           cardBody.removeChild(btnGroup);
           const newGameButton = document.createElement('button');
-          newGameButton.classList.add('btn','btn-secondary');
+          newGameButton.classList.add('btn','btn-secondary', 'btn-lg');
           newGameButton.textContent = "New Game"
           cardBody.appendChild(newGameButton);
           newGameButton.onclick = () => location.reload();
